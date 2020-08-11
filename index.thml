@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Web Designer - Yu Okura</title>
+        <meta name="description" content="Webデザイナー 大倉ゆうのポートフォリオサイトです。東京を中心に活動しています。">
+        <meta name="keywords" content="Web, デザイン, デザイナー, ポートフォリオ, Web制作">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="#contact" class="button-contact"><i class="fa fa-envelope-o" aria-label="お問い合わせ"></i></a>
+       
+             <div class="profile">
+                <h1 class="site-title abel uppercase text-center"><span>Yu Okura</span></h1>
+                <div class="profile-area">
+                <div class="profile-picture"><img src="./images/icon.png" alt="profilepicture"></div>
+                <div class="profile-text">
+                    
+                    1996年生まれ、東京都在住。<br>
+                    成城大学経済学部卒業後、株式会社トランス・コスモス入社。<br>
+                    機械設計エンジニアとして自動車の部品の設計支援サポートに携わる。<br>
+                    人と関わることが好きで、輪の中にすぐ溶け込む事ができる。<br><br>
+                    html/css、photoshop、illustratorを学び、現在はJavescriptの勉強中。<br>
+                    
+                
+                </div>
+                </div>
+
+            </div>
+        </header>
+        <main>
+              <section id="works">
+        <h2 class="text-center">Works</h2>
+        <div class="works-box">
+            <a href="https://ed3e799195de484995470a24d56725c9.vfs.cloud9.us-east-1.amazonaws.com/_static/original_site_coding/index.html">
+                <img src="./images/img_work_site.png" alt="Se Calmer ショッピングサイト">
+                <div class="works-box-inner">
+                    <div class="text-center">
+                        <h3>Se Calmer ショッピングサイト</h3>
+                        <span class="button-readmore">Read More</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="works-box">
+            <a href="https://ed3e799195de484995470a24d56725c9.vfs.cloud9.us-east-1.amazonaws.com/_static/kadai-corporate-site-coding/company.html">
+                <img src="./images/img_work_corporate.png" alt="株式会社スカイホワイト">
+                <div class="works-box-inner">
+                    <div class="text-center">
+                        <h3>株式会社スカイホワイト コーポレートサイト</h3>
+                        <span class="button-readmore">Read More</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="works-box">
+            <a href="#">
+                <img src="./images/img_work_blog.png" alt="#">
+                <div class="works-box-inner">
+                    <div class="text-center">
+                        <h3>xxxxxxxxxx</h3>
+                        <span class="button-readmore">Read More</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+ 
+        
+        
+    </section>
+             
+        </main>
+        <footer>
+            
+            <small class="abel uppercase">&copy; Yu Okura, All Rights Reserved.</small>
+        </footer>
+    </body>
+</html>
+
